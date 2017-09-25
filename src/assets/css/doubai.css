@@ -1,0 +1,41 @@
+/*--------样式库开始-----------*/
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+ul,ul li{ list-style:none;}
+img,iframe,abbr{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+input,button,select,textarea{overflow:auto;}
+textarea{resize:none;font-size:13px;}
+input,textarea{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-appearance: none; }
+input[type=submit]{ border:none;-webkit-appearance: none; }
+sup,sub{font-size:83%;}
+a,button{cursor:pointer;}
+html{ font-size:62.5%; /* 10÷16=62.5% */ }
+body{ font-size:12px; font-size:1.2rem ; /* 12÷10=1.2 */ font-family: "Microsoft Yahei", "SimSun", Arial, Helvetica, sans-serif; word-wrap: break-word;word-break: normal;word-break:break-all; background: #F2F2F2;}
+
+.hidden{ display:none}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.clearfix:after{ content: " "; display: block; clear: both; height: 0; }
+.clearfix { *zoom: 1;}
+a{ text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+a:hover{text-decoration:none;}
+*:focus {outline: none; -moz-outline:none; } 
+.hr{ height: 1px; background: #eee;}
+/*底部样式*/
+.footer { background: #fff; position: fixed; bottom: 0; width: 100%; padding: 10px 0;}
+.item{ display: inline-block; width: 20%; text-align: center;}
+.item span{ font-size: 14px; color: #333; text-align: center;}
+.item i{ display: block; width:30px; height: 30px ; margin: auto;}
+.item i.i-0{ background: url(../images/ic_tab_home_normal.png) no-repeat; background-size: contain;}
+.item i.i-1{ background: url(../images/ic_tab_subject_normal.png) no-repeat; background-size: contain;}
+.item i.i-2{ background: url(../images/ic_tab_status_normal.png) no-repeat; background-size: contain;}
+.item i.i-3{ background: url(../images/ic_tab_group_normal.png) no-repeat; background-size: contain;}
+.item i.i-4{ background: url(../images/ic_tab_profile_normal.png) no-repeat; background-size: contain;}
+.item.active span{color: #42B983;}
+.item.active i.i-0{background: url(../images/ic_tab_home_active.png) no-repeat; background-size: contain;}
+.item.active i.i-1{ background: url(../images/ic_tab_subject_active.png) no-repeat; background-size: contain;}
+.item.active i.i-2{ background: url(../images/ic_tab_status_active.png) no-repeat; background-size: contain;}
+.item.active i.i-3{ background: url(../images/ic_tab_group_active.png) no-repeat; background-size: contain;}
+.item.active i.i-4{ background: url(../images/ic_tab_profile_active.png) no-repeat; background-size: contain;}
+
+
